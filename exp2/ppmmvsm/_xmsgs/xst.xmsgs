@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">2485</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">2485</arg>: Output port &lt;<arg fmt="%s" index="3">Q0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">2485</arg>: Output port &lt;<arg fmt="%s" index="3">Q1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">2806</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U64</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">2806</arg>: Output port &lt;<arg fmt="%s" index="3">Q3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U64</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">2806</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U64</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">2822</arg>: Output port &lt;<arg fmt="%s" index="3">D7</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U65</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">2836</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U66</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">2836</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U66</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">2844</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U67</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">2844</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U67</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3028</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U86</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3028</arg>: Output port &lt;<arg fmt="%s" index="3">Q3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U86</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3028</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U86</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3230</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U119</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3230</arg>: Output port &lt;<arg fmt="%s" index="3">Q0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U119</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3230</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U119</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3280</arg>: Output port &lt;<arg fmt="%s" index="3">OFL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U148</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3297</arg>: Output port &lt;<arg fmt="%s" index="3">OFL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U149</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3314</arg>: Output port &lt;<arg fmt="%s" index="3">OFL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U150</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3331</arg>: Output port &lt;<arg fmt="%s" index="3">OFL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U151</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3532</arg>: Output port &lt;<arg fmt="%s" index="3">CO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U171</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3532</arg>: Output port &lt;<arg fmt="%s" index="3">OFL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U171</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3532</arg>: Output port &lt;<arg fmt="%s" index="3">S2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U171</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3532</arg>: Output port &lt;<arg fmt="%s" index="3">S3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U171</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3641</arg>: Output port &lt;<arg fmt="%s" index="3">OFL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U181</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3649</arg>: Output port &lt;<arg fmt="%s" index="3">OFL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U182</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3664</arg>: Output port &lt;<arg fmt="%s" index="3">LT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U183</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3670</arg>: Output port &lt;<arg fmt="%s" index="3">Q3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U184</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3690</arg>: Output port &lt;<arg fmt="%s" index="3">LT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U186</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3723</arg>: Output port &lt;<arg fmt="%s" index="3">S</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U190</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3723</arg>: Output port &lt;<arg fmt="%s" index="3">OFL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U190</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3731</arg>: Output port &lt;<arg fmt="%s" index="3">LT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U191</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3755</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U195</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3755</arg>: Output port &lt;<arg fmt="%s" index="3">Q0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U195</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">3755</arg>: Output port &lt;<arg fmt="%s" index="3">Q1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U195</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">4021</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U269</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">4021</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U269</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">4055</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U273</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">4055</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U273</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">4119</arg>: Output port &lt;<arg fmt="%s" index="3">LT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U283</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">4125</arg>: Output port &lt;<arg fmt="%s" index="3">Q3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U284</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">4323</arg>: Output port &lt;<arg fmt="%s" index="3">GT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U309</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">4335</arg>: Output port &lt;<arg fmt="%s" index="3">GT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U310</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\ppmmvsm.vhf</arg>&quot; line <arg fmt="%s" index="2">4379</arg>: Output port &lt;<arg fmt="%s" index="3">GT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U313</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\cse001-wfp\home$\zgr206\CS2204\exp2\ppmmvsm\CODEDISC.vhf</arg>&quot; line <arg fmt="%s" index="2">554</arg>: Output port &lt;<arg fmt="%s" index="3">Q3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U222</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Q_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">U285</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Q_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">U185</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">COUNT_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U64</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">COUNT_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U67</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">COUNT_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U67</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">COUNT_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U67</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">COUNT_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U67</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">COUNT_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U67</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">COUNT_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U67</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">COUNT_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U67</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U284</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U184</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">COUNT_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U86</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">U173/XLXI_3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">ppmmvsm</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

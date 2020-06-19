@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "S:/CS2204/exp2/ppmmvsm/ppmmvsm_isim_beh.exe" -prj "S:/CS2204/exp2/ppmmvsm/ppmmvsm_beh.prj" "work.ppmmvsm" 

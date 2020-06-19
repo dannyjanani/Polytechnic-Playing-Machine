@@ -1,0 +1,72 @@
+xst -intstyle ise -ifn "D:/work/academic/cs2204/fall2016/labs/ppmmvsm/ppmmvsm.xst" -ofn "D:/work/academic/cs2204/fall2016/labs/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+par -w -intstyle ise -ol high -mt off ppmmvsm_map.ncd ppmmvsm.ncd ppmmvsm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ppmmvsm.twx ppmmvsm.ncd -o ppmmvsm.twr ppmmvsm.pcf -ucf ppmmvsm.ucf 
+bitgen -intstyle ise -f ppmmvsm.ut ppmmvsm.ncd 
+xst -intstyle ise -ifn "D:/work/academic/cs2204/fall2016/labs/ppmmvsm/ppmmvsm.xst" -ofn "D:/work/academic/cs2204/fall2016/labs/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+par -w -intstyle ise -ol high -mt off ppmmvsm_map.ncd ppmmvsm.ncd ppmmvsm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ppmmvsm.twx ppmmvsm.ncd -o ppmmvsm.twr ppmmvsm.pcf -ucf ppmmvsm.ucf 
+bitgen -intstyle ise -f ppmmvsm.ut ppmmvsm.ncd 
+xst -intstyle ise -ifn "D:/work/academic/cs2204/fall2016/labs/ppmmvsm/ppmmvsm.xst" -ofn "D:/work/academic/cs2204/fall2016/labs/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+par -w -intstyle ise -ol high -mt off ppmmvsm_map.ncd ppmmvsm.ncd ppmmvsm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ppmmvsm.twx ppmmvsm.ncd -o ppmmvsm.twr ppmmvsm.pcf -ucf ppmmvsm.ucf 
+bitgen -intstyle ise -f ppmmvsm.ut ppmmvsm.ncd 
+xst -intstyle ise -ifn "D:/work/academic/cs2204/fall2016/labs/ppmmvsm/ppmmvsm.xst" -ofn "D:/work/academic/cs2204/fall2016/labs/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+par -w -intstyle ise -ol high -mt off ppmmvsm_map.ncd ppmmvsm.ncd ppmmvsm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ppmmvsm.twx ppmmvsm.ncd -o ppmmvsm.twr ppmmvsm.pcf -ucf ppmmvsm.ucf 
+bitgen -intstyle ise -f ppmmvsm.ut ppmmvsm.ncd 
+xst -intstyle ise -ifn "D:/work/academic/cs2204/fall2016/labs/ppmmvsm/ppmmvsm.xst" -ofn "D:/work/academic/cs2204/fall2016/labs/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+par -w -intstyle ise -ol high -mt off ppmmvsm_map.ncd ppmmvsm.ncd ppmmvsm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ppmmvsm.twx ppmmvsm.ncd -o ppmmvsm.twr ppmmvsm.pcf -ucf ppmmvsm.ucf 
+bitgen -intstyle ise -f ppmmvsm.ut ppmmvsm.ncd 
+xst -intstyle ise -ifn "D:/work/academic/cs2204/fall2017/labs/ppmmvsm/ppmmvsm.xst" -ofn "D:/work/academic/cs2204/fall2017/labs/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+par -w -intstyle ise -ol high -mt off ppmmvsm_map.ncd ppmmvsm.ncd ppmmvsm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ppmmvsm.twx ppmmvsm.ncd -o ppmmvsm.twr ppmmvsm.pcf -ucf ppmmvsm.ucf 
+bitgen -intstyle ise -f ppmmvsm.ut ppmmvsm.ncd 
+xst -intstyle ise -ifn "D:/work/academic/cs2204/fall2017/labs/ppmmvsm/ppmmvsm.xst" -ofn "D:/work/academic/cs2204/fall2017/labs/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+par -w -intstyle ise -ol high -mt off ppmmvsm_map.ncd ppmmvsm.ncd ppmmvsm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ppmmvsm.twx ppmmvsm.ncd -o ppmmvsm.twr ppmmvsm.pcf -ucf ppmmvsm.ucf 
+bitgen -intstyle ise -f ppmmvsm.ut ppmmvsm.ncd 
+xst -intstyle ise -ifn "S:/CS2204/exp2/ppmmvsm/ppmmvsm.xst" -ofn "S:/CS2204/exp2/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+par -w -intstyle ise -ol high -mt off ppmmvsm_map.ncd ppmmvsm.ncd ppmmvsm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ppmmvsm.twx ppmmvsm.ncd -o ppmmvsm.twr ppmmvsm.pcf -ucf ppmmvsm.ucf 
+xst -intstyle ise -ifn "S:/CS2204/exp2/ppmmvsm/ppmmvsm.xst" -ofn "S:/CS2204/exp2/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+par -w -intstyle ise -ol high -mt off ppmmvsm_map.ncd ppmmvsm.ncd ppmmvsm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ppmmvsm.twx ppmmvsm.ncd -o ppmmvsm.twr ppmmvsm.pcf -ucf ppmmvsm.ucf 
+xst -intstyle ise -ifn "S:/CS2204/exp2/ppmmvsm/ppmmvsm.xst" -ofn "S:/CS2204/exp2/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+par -w -intstyle ise -ol high -mt off ppmmvsm_map.ncd ppmmvsm.ncd ppmmvsm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ppmmvsm.twx ppmmvsm.ncd -o ppmmvsm.twr ppmmvsm.pcf -ucf ppmmvsm.ucf 
+xst -intstyle ise -ifn "S:/CS2204/exp2/ppmmvsm/ppmmvsm.xst" -ofn "S:/CS2204/exp2/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+par -w -intstyle ise -ol high -mt off ppmmvsm_map.ncd ppmmvsm.ncd ppmmvsm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ppmmvsm.twx ppmmvsm.ncd -o ppmmvsm.twr ppmmvsm.pcf -ucf ppmmvsm.ucf 
+bitgen -intstyle ise -f ppmmvsm.ut ppmmvsm.ncd 
+xst -intstyle ise -ifn "E:/ppmmvsm/ppmmvsm.xst" -ofn "E:/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+xst -intstyle ise -ifn "S:/CS2204/exp2/ppmmvsm/ppmmvsm.xst" -ofn "S:/CS2204/exp2/ppmmvsm/ppmmvsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ppmmvsm.ucf -p xc7a100t-csg324-3 ppmmvsm.ngc ppmmvsm.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ppmmvsm_map.ncd ppmmvsm.ngd ppmmvsm.pcf 
+par -w -intstyle ise -ol high -mt off ppmmvsm_map.ncd ppmmvsm.ncd ppmmvsm.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ppmmvsm.twx ppmmvsm.ncd -o ppmmvsm.twr ppmmvsm.pcf -ucf ppmmvsm.ucf 
+bitgen -intstyle ise -f ppmmvsm.ut ppmmvsm.ncd 

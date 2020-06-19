@@ -1,0 +1,101 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o S:/CS2204/exp2/ppmmvsm/ppmmvsm_isim_beh.exe -prj S:/CS2204/exp2/ppmmvsm/ppmmvsm_beh.prj work.ppmmvsm 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "S:/CS2204/exp2/ppmmvsm/X74_157.vhf" into library work
+Parsing VHDL file "S:/CS2204/exp2/ppmmvsm/Decoder.vhd" into library work
+Parsing VHDL file "S:/CS2204/exp2/ppmmvsm/X74_153.vhf" into library work
+Parsing VHDL file "S:/CS2204/exp2/ppmmvsm/SEVENSEGMENTDECODER.vhf" into library work
+Parsing VHDL file "S:/CS2204/exp2/ppmmvsm/PmodKEYPAD.vhd" into library work
+Parsing VHDL file "S:/CS2204/exp2/ppmmvsm/CODEGEN.vhf" into library work
+Parsing VHDL file "S:/CS2204/exp2/ppmmvsm/CODEDISC.vhf" into library work
+Parsing VHDL file "S:/CS2204/exp2/ppmmvsm/ppmmvsm.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 171224 KB
+Fuse CPU Usage: 1578 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package textio
+Compiling package vital_timing
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture obuf_v of entity OBUF [\OBUF("DONT_CARE",12,"DEFAULT","...]
+Compiling architecture buf_v of entity BUF [buf_default]
+Compiling architecture ibuf_v of entity IBUF [\IBUF("DONT_CARE","0",true,"AUTO...]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture nor3_v of entity NOR3 [nor3_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture fdce_v of entity FDCE [\FDCE('0')\]
+Compiling architecture behavioral of entity FD4CE_MXILINX_CODEGEN [fd4ce_mxilinx_codegen_default]
+Compiling architecture and4_v of entity AND4 [and4_default]
+Compiling architecture xnor2_v of entity XNOR2 [xnor2_default]
+Compiling architecture behavioral of entity COMP4_MXILINX_CODEGEN [comp4_mxilinx_codegen_default]
+Compiling architecture and3_v of entity AND3 [and3_default]
+Compiling architecture nor2_v of entity NOR2 [nor2_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture m2_1e_hxilinx_x74_157_v of entity M2_1E_HXILINX_X74_157 [m2_1e_hxilinx_x74_157_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture behavioral of entity X74_157 [x74_157_default]
+Compiling architecture and2b1_v of entity AND2B1 [and2b1_default]
+Compiling architecture behavioral of entity CODEGEN [codegen_default]
+Compiling architecture or5_v of entity OR5 [or5_default]
+Compiling architecture behavioral of entity FD4CE_MXILINX_CODEDISC [fd4ce_mxilinx_codedisc_default]
+Compiling architecture or4_v of entity OR4 [or4_default]
+Compiling architecture behavioral of entity COMP4_MXILINX_CODEDISC [comp4_mxilinx_codedisc_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture and3b1_v of entity AND3B1 [and3b1_default]
+Compiling architecture behavioral of entity M2_1E_MXILINX_CODEDISC [m2_1e_mxilinx_codedisc_default]
+Compiling architecture behavioral of entity X74_157_MUSER_CODEDISC [x74_157_muser_codedisc_default]
+Compiling architecture behavioral of entity CODEDISC [codedisc_default]
+Compiling architecture rom16x1_v of entity ROM16X1 [\ROM16X1("0010100000010010")(0,1...]
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture behavioral of entity FTC_HXILINX_SEVENSEGMENTDECODER [\FTC_HXILINX_SEVENSEGMENTDECODER...]
+Compiling architecture m2_1e_hxilinx_sevensegmentdecoder_v of entity M2_1E_HXILINX_SEVENSEGMENTDECODER [m2_1e_hxilinx_sevensegmentdecode...]
+Compiling architecture behavioral of entity X74_157_MUSER_SEVENSEGMENTDECODER [x74_157_muser_sevensegmentdecode...]
+Compiling architecture behavioral of entity SEVENSEGMENTDECODER [sevensegmentdecoder_default]
+Compiling architecture behavioral of entity Decoder [decoder_default]
+Compiling architecture behavioral of entity PmodKEYPAD [pmodkeypad_default]
+Compiling architecture behavioral of entity CB2CE_HXILINX_ppmmvsm [cb2ce_hxilinx_ppmmvsm_default]
+Compiling architecture fdc_v of entity FDC [\FDC('0')\]
+Compiling architecture or3_v of entity OR3 [or3_default]
+Compiling architecture and3b2_v of entity AND3B2 [and3b2_default]
+Compiling architecture behavioral of entity CB4CLE_HXILINX_ppmmvsm [cb4cle_hxilinx_ppmmvsm_default]
+Compiling architecture d3_8e_hxilinx_ppmmvsm_v of entity D3_8E_HXILINX_ppmmvsm [d3_8e_hxilinx_ppmmvsm_default]
+Compiling architecture behavioral of entity CB16CE_HXILINX_ppmmvsm [cb16ce_hxilinx_ppmmvsm_default]
+Compiling architecture behavioral of entity FD4CE_HXILINX_ppmmvsm [fd4ce_hxilinx_ppmmvsm_default]
+Compiling architecture m2_1e_hxilinx_ppmmvsm_v of entity M2_1E_HXILINX_ppmmvsm [m2_1e_hxilinx_ppmmvsm_default]
+Compiling architecture behavioral of entity X74_157_MUSER_ppmmvsm [x74_157_muser_ppmmvsm_default]
+Compiling architecture m2_1_hxilinx_ppmmvsm_v of entity M2_1_HXILINX_ppmmvsm [m2_1_hxilinx_ppmmvsm_default]
+Compiling architecture behavioral of entity X74_153_MUSER_ppmmvsm [x74_153_muser_ppmmvsm_default]
+Compiling architecture behavioral of entity CB4CE_HXILINX_ppmmvsm [cb4ce_hxilinx_ppmmvsm_default]
+Compiling architecture or2b1_v of entity OR2B1 [or2b1_default]
+Compiling architecture nand2_v of entity NAND2 [nand2_default]
+Compiling architecture behavioral of entity FD8CE_HXILINX_ppmmvsm [fd8ce_hxilinx_ppmmvsm_default]
+Compiling architecture behavioral of entity CD4CE_HXILINX_ppmmvsm [cd4ce_hxilinx_ppmmvsm_default]
+Compiling architecture add4_hxilinx_ppmmvsm_v of entity ADD4_HXILINX_ppmmvsm [add4_hxilinx_ppmmvsm_default]
+Compiling architecture m4_1e_hxilinx_ppmmvsm_v of entity M4_1E_HXILINX_ppmmvsm [m4_1e_hxilinx_ppmmvsm_default]
+Compiling architecture comp4_hxilinx_ppmmvsm_v of entity COMP4_HXILINX_ppmmvsm [comp4_hxilinx_ppmmvsm_default]
+Compiling architecture add8_hxilinx_ppmmvsm_v of entity ADD8_HXILINX_ppmmvsm [add8_hxilinx_ppmmvsm_default]
+Compiling architecture compm8_hxilinx_ppmmvsm_v of entity COMPM8_HXILINX_ppmmvsm [compm8_hxilinx_ppmmvsm_default]
+Compiling architecture compm2_hxilinx_ppmmvsm_v of entity COMPM2_HXILINX_ppmmvsm [compm2_hxilinx_ppmmvsm_default]
+Compiling architecture nor5_v of entity NOR5 [nor5_default]
+Compiling architecture and4b2_v of entity AND4B2 [and4b2_default]
+Compiling architecture and4b1_v of entity AND4B1 [and4b1_default]
+Compiling architecture and3b3_v of entity AND3B3 [and3b3_default]
+Compiling architecture d2_4e_hxilinx_ppmmvsm_v of entity D2_4E_HXILINX_ppmmvsm [d2_4e_hxilinx_ppmmvsm_default]
+Compiling architecture m8_1e_hxilinx_ppmmvsm_v of entity M8_1E_HXILINX_ppmmvsm [m8_1e_hxilinx_ppmmvsm_default]
+Compiling architecture nor4_v of entity NOR4 [nor4_default]
+Compiling architecture and2b2_v of entity AND2B2 [and2b2_default]
+Compiling architecture compm4_hxilinx_ppmmvsm_v of entity COMPM4_HXILINX_ppmmvsm [compm4_hxilinx_ppmmvsm_default]
+Compiling architecture behavioral of entity ppmmvsm
+Time Resolution for simulation is 1ps.
+Compiled 159 VHDL Units
+Built simulation executable S:/CS2204/exp2/ppmmvsm/ppmmvsm_isim_beh.exe
+Fuse Memory Usage: 206840 KB
+Fuse CPU Usage: 2968 ms

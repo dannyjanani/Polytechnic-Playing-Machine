@@ -1,0 +1,122 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml ppmmvsh.twx ppmmvsh.ncd -o ppmmvsh.twr ppmmvsh.pcf -ucf
+ppmmvsh.ucf
+
+Design file:              ppmmvsh.ncd
+Physical constraint file: ppmmvsh.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLOCK_NP2B
+---------------+------------+------------+------------+------------+------------------+--------+
+               |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source         | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+---------------+------------+------------+------------+------------+------------------+--------+
+KEYPADINPOUT<4>|    0.864(R)|      FAST  |    0.423(R)|      SLOW  |CLOCK             |   0.000|
+KEYPADINPOUT<5>|    1.087(R)|      FAST  |    1.811(R)|      SLOW  |CLOCK             |   0.000|
+KEYPADINPOUT<6>|    1.595(R)|      FAST  |    1.164(R)|      SLOW  |CLOCK             |   0.000|
+KEYPADINPOUT<7>|    1.055(R)|      FAST  |    1.631(R)|      SLOW  |CLOCK             |   0.000|
+---------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CLOCK_NP2B to Pad
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+               |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination    |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+AA             |        13.282(R)|      SLOW  |         5.135(R)|      FAST  |CLOCK             |   0.000|
+AB             |        13.831(R)|      SLOW  |         5.385(R)|      FAST  |CLOCK             |   0.000|
+AC             |        13.671(R)|      SLOW  |         5.350(R)|      FAST  |CLOCK             |   0.000|
+AD             |        13.788(R)|      SLOW  |         5.493(R)|      FAST  |CLOCK             |   0.000|
+AE             |        13.498(R)|      SLOW  |         5.252(R)|      FAST  |CLOCK             |   0.000|
+AF             |        13.724(R)|      SLOW  |         5.439(R)|      FAST  |CLOCK             |   0.000|
+AG             |        13.523(R)|      SLOW  |         5.154(R)|      FAST  |CLOCK             |   0.000|
+KEYPADINPOUT<0>|         9.605(R)|      SLOW  |         3.621(R)|      FAST  |CLOCK             |   0.000|
+KEYPADINPOUT<1>|         9.911(R)|      SLOW  |         3.818(R)|      FAST  |CLOCK             |   0.000|
+KEYPADINPOUT<2>|         9.571(R)|      SLOW  |         3.603(R)|      FAST  |CLOCK             |   0.000|
+KEYPADINPOUT<3>|         9.696(R)|      SLOW  |         3.687(R)|      FAST  |CLOCK             |   0.000|
+RD0_NB2P       |        12.503(R)|      SLOW  |         5.158(R)|      FAST  |CLOCK             |   0.000|
+RD1_NB2P       |        12.239(R)|      SLOW  |         5.056(R)|      FAST  |CLOCK             |   0.000|
+RD2_NB2P       |        11.863(R)|      SLOW  |         4.819(R)|      FAST  |CLOCK             |   0.000|
+RD3_NB2P       |        12.104(R)|      SLOW  |         4.996(R)|      FAST  |CLOCK             |   0.000|
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLOCK_NP2B
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_NP2B     |    3.767|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+CodeOrKeypad   |AA             |   10.382|
+CodeOrKeypad   |AB             |   10.775|
+CodeOrKeypad   |AC             |   10.771|
+CodeOrKeypad   |AD             |   10.888|
+CodeOrKeypad   |AE             |   10.598|
+CodeOrKeypad   |AF             |   10.824|
+CodeOrKeypad   |AG             |   10.480|
+P1PLAY_NP2B    |CA_NB2P        |   11.508|
+P1PLAY_NP2B    |CB_NB2P        |   11.579|
+P1PLAY_NP2B    |CC_NB2P        |   13.037|
+P1PLAY_NP2B    |CD_NB2P        |   13.149|
+P1PLAY_NP2B    |CE_NB2P        |   12.256|
+P1PLAY_NP2B    |CF_NB2P        |   11.781|
+P1PLAY_NP2B    |CG_NB2P        |   12.789|
+SHPTS_NP2B     |A0_NB2P        |    7.622|
+SHPTS_NP2B     |A1_NB2P        |    7.901|
+SHPTS_NP2B     |A2_NB2P        |    8.250|
+SHPTS_NP2B     |A3_NB2P        |    8.037|
+SHPTS_NP2B     |CA_NB2P        |   12.065|
+SHPTS_NP2B     |CB_NB2P        |   12.136|
+SHPTS_NP2B     |CC_NB2P        |   13.594|
+SHPTS_NP2B     |CD_NB2P        |   13.706|
+SHPTS_NP2B     |CE_NB2P        |   12.813|
+SHPTS_NP2B     |CF_NB2P        |   12.338|
+SHPTS_NP2B     |CG_NB2P        |   13.346|
+Testrd         |RD0_NB2P       |    8.569|
+Testrd         |RD1_NB2P       |    8.525|
+Testrd         |RD2_NB2P       |    7.402|
+Testrd         |RD3_NB2P       |    8.824|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Dec 11 10:57:59 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 413 MB
+
+
+
