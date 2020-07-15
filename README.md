@@ -1,60 +1,59 @@
 # Polytechnic-Playing-Machine
 
-A device with sensors to help someone who isvisually disabled navigate from a location without the need for a walking stick.
+Enhancing a game project named Polytechnic Playing Machine, ppm using Xilinx ISE.
 
 ## Project Overview
 
-Inspired by watching a blind person walk from the train station to the bank and inside to make a deposit, we were tasked to create a device that will help a visually disabled person walk from one location to another unassisted. Given a tight budget we had to create a wearable that detects objects in front or on the sides of a person. Google maps navigation often tells you "Turn in 100 feet". We wanted to have a similar concept. There were a few challenges though. A blind-folded person, used for testing, often does not walk straight as he is not used to it. We laser printed a box with three holes in it for sensors, with a rope tied to the person for him to have his hands free. We placed an [ultrasonic](https://www.keyence.com/ss/products/sensor/sensorbasics/ultrasonic/info/) sensor in each of the holes, one pointed ahead, right, and left to cover all directions. Inside the box was a [microcontroller](https://internetofthingsagenda.techtarget.com/definition/microcontroller) with a [buzzer](https://create.arduino.cc/projecthub/SURYATEJA/use-a-buzzer-module-piezo-speaker-using-arduino-uno-89df45) inside, to tell the user which direction and how far the obstuction is. The frequency of the buzzer would be different depending on the direction the obstruction is, making a different sound. If the obstruction was close, the user would hear a quick beep, whereas if it was further the beep would be slower, kind of like a backup camera on modern-day cars. Another part of this project was to track steps and ensure the user was walking in a straight path. We placed a box near the waist where we placed an [accelerometer](https://www.livescience.com/40102-accelerometers.html) and wires down to the bottom of the shoe with an [FSR](https://learn.adafruit.com/force-sensitive-resistor-fsr/using-an-fsr) (Force Sensitive Resistor) to track steps. We also have vibrators placed on each wrist, telling the user to turn right or left. When the FSR reaches a certain step count (calibrated according to user's step size), it would set off the vibrator in the direction the user needs to turn. The user, at any time, can press a button on this box, to ensure he is walking straight. If he's not, it would vibrate telling him the direction he needs to turn till he gets to the right direction.
+The Polytechnic Playing Machine, ppm, has three different versions. The ppm project to be enhanced is named machine vs. machine: ppmvsm. The other two versions of the ppm game at the course website are : (i) a human player playing against a machine player, human vs machine : ppmhvsm, and (ii) two human players play against each other, human vs human : ppmhvsh. 
 
-Using these two microcontrollers, we were able to direct the user to the endpoint, safely.
+The ppm players, human and machine, play digits on four position displays to earn points. They play the game until one wins the game. Then, the game is restarted by resetting. The players take turns to play : Player 1 plays, then Player 2 plays, then, Player 1 plays, etc. Always, Player 1 starts the game when the FPGA is downloaded or reset. Player 1 receives a pseudo-random digit (simply random digit, RD) to start with. Player 1 may choose to play the digit or skip the play. Whether Player 1 plays or skips, when Player 2 gets its turn it receives a new random digit. It may play the random digit or skip the play. If Player 2 skips the play, Player 1 gets a new random digit and has the same two options as before : play or skip. If a player skips a play no points are subtracted. Also, both players are allowed to see the next two random digits which can help them plan their moves better. In summary, the game for each player is about playing a random digit on a position display to earn points, more than the opponent. 
+
+The random digit is a BCD digit, i.e. it is 0 through 9. Playing the random digit on a position display is either playing it directly (overwriting) or adding it to a display. If it is a direct play, the position is stored the random digit : RD. If it is an addition, the position is added the random digit and the result is placed on the same display. In either case, if the player has an adjacency, i.e. the digit played has an identical neighbor, the player earns more points. A 2-digit code which is not visible to the players and is on the rightmost two displays can help player earn even more points. 
+
+The largest value to play on a display is F, i.e. 15 in decimal. That is, the sum of RD and the position display value cannot be greater than 15. If the sum exceeds 15, this situation is called display overflow. If the player plays it, the digit played is the sum minus 16. For example, if a position has E and RD is 9, after the addition the position is played 14 + 9 - 16 = 7. Then, the display blinks at a high rate, signalling there is a display overflow. If the player has an adjacency, the player earns more than 7 points. If the digit played is identical to the code digit on that position, the player earns additional points. Thus, winning the game is dependent on both chance and thinking. The ppm circuit is a digital system. A digital system consists of digital circuits. Today’s digital systems are numerous. Examples of digital systems are microprocessors, computers, DVD players and iPhones. They are also complex. Consequently, special emphasis is given to the coverage of digital systems in computer science and computer engineering curricula.
+
+The ppm digital system consists of six blocks on six schematic sheets. Blocks 1, 2, 4, 5 and 6 are core blocks : They are already designed and provided with on schematics 1, 2, 4, 5 and 6. Block 3 on schematic 3 is the Machine Play Block and students will enhance it. Schematics 4 and 6 have black boxes or macros. Students cannot see their schematic implementations, but only VHDL ones. The machine vs machine or ppmmvsm project students enahnce has two additional schematic sheets to help student enhance their project better.
 
 ## Project Goals
 
-* Team of 3 people.
-* Needs to be universal.
-* Navigate the user from Makerspace are to the cafeteria without hitting obstructions.
-* Buy pizza slice in the cafeteria.
-* Give user feedback to know where the obstuctions are and which direction they should go.
-* Allow user to have both hands free for holding things.
-* Ability to replace and enhance the "walking stick".
-* Develop electronic/embedded system that would help complete the task.
-* The user must be blindfolded the entire time, no visual feedback allowed.
-* Teammates are not allowed to help the person navigate.
-* No direct tactile feedback (you can use a stick, but cannot feel with a stick, placing a sensor on it is fine).
+* Teams of 4 plan and finalize how they will enhance ppmmvsm project.
+* Students may instead elect to develop their own project as long as the project involves a digital system.
+* The project follows the class coverage where the initial circuits are combinational circuits.
+* Blocks with sequential circuits are then designed.
+* We first describe the black box view of the ppm and then the individual blocks.
+* The descriptions are in the context of digital systems.
+* The description is also based on the [Digilent NEXYS-4 DDR FPGA board](https://www.digikey.com/products/en/development-boards-kits-programmers/evaluation-boards-embedded-complex-logic-fpga-cpld/796?k=digilent&k=410-292&pkeyword=digilent&sv=0&sf=0&FV=-8%7C796&quantity=&ColumnSort=0&page=1&pageSize=25).
+* Students will completely design Block 3 (the design of the machine player is left to students).
+* Students design its intelligence level and playing strategy.
+* The machine player plays according to the rules.
+* The machine vs. machine ppm project uses all eight displays and all 16 LED lights. 
+* That is, four aditional displays and eight additional LED lights are used compared with the human vs. human and human vs. machine projects. 
+* What is shown on these outputs is as follows:
+  * Displays 4 and 5 show Player 1 points.
+  * Displays 6 and 7 show Player 2 points.
+  * LED lights 8 to 11 show the next random digit.
+  * LED lights 12 to 15 show the following random digit.
+* In addition, we will use the keypad and 7-Segment Pmods to enhance the game and debug the circuits faster. 
+* Finally, students can input a random digit from switches SW15-SW12 to also debug their circuits faster.
 
 ## Gallery
 
-Soldering                  | Construction               |  Microcontroller Setup
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/dannyjanani/BlindSightPros/blob/master/Gallery/Soldering.jpg)  | ![](https://github.com/dannyjanani/BlindSightPros/blob/master/Gallery/Construction.jpg)  |  ![](https://github.com/dannyjanani/BlindSightPros/blob/master/Gallery/Microcontroller%20setup.jpg)
-
 ## Provided Materials
 
-* 3x [HC-SR04 Ultrasonic Sensors](https://www.adafruit.com/product/3942)
-* 1x [GP2Y0A21TK0F IR Sensor](https://www.adafruit.com/product/164)
-* 1x [Stackable Proto Shield](https://www.adafruit.com/product/2077)
-* 5x [Screw Terminal Blocks](https://www.walmart.com/ip/20PCS-300V-10A-3-50mm-Pitch-2P-Male-PCB-Screw-Terminal-Block-Connector-Green/871518443?wmlspartner=wlpa&selectedSellerId=571&adid=22222222227155079247&wl0=&wl1=g&wl2=c&wl3=266340381064&wl4=aud-430887228898:pla-439086344342&wl5=9004364&wl6=&wl7=1023239&wl8=&wl9=pla&wl10=111838760&wl11=online&wl12=871518443&veh=sem)
-* Unlimited Maker space resources (3d printing, laser cutting, etc.)
-* $50 Budget per team used for:
-  * 2x [Adafruit METRO 328](https://www.adafruit.com/product/2488)
-  * 2x [Vibrating Mini Motor Disk](https://www.adafruit.com/product/1201)
-  * 1x [Piezo Buzzer](https://www.adafruit.com/product/160)
-  * 1x [Accelerometer](https://www.adafruit.com/product/1120)
-  * 1x [FSR](https://www.adafruit.com/product/166) (Force Sensitive Resistor)
-  * 1x [Jumper Cables](https://www.adafruit.com/product/759)
-  * 1x [Breadboard](https://www.adafruit.com/product/64)
-  * 1x Pair of gloves
-  * 1x Rope
+* 1x [Digilent NEXYS-4 DDR FPGA board](https://www.digikey.com/products/en/development-boards-kits-programmers/evaluation-boards-embedded-complex-logic-fpga-cpld/796?k=digilent&k=410-292&pkeyword=digilent&sv=0&sf=0&FV=-8%7C796&quantity=&ColumnSort=0&page=1&pageSize=25)
+* 1x [Keypad](https://www.digikey.com/products/en/switches/keypad-switches/202?k=14662&pkeyword=&sv=0&sf=0&FV=-8%7C202&quantity=&ColumnSort=0&page=1&pageSize=25)
+* 1x [7-Segment Pmods](https://www.adafruit.com/product/3108)
 
 ## Skills Used
 
-* Prototyping:
-  * Laser Cutting
-  * 3D Printing
-  * Soldering
-
 * Software:
-  * C
-  * Arduino IDE
-  * SolidWorks
-  * Ultimaker Cura
+  * Xilinx ISE
+  * Schematic Design
+  * VHDL
+  
+* Knowledge Acquired: 
+  * Number systems
+  * Combinational circuits
+  * Sequential circuits
+  * Programmable components
+  * Digital systems.
