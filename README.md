@@ -56,4 +56,4 @@ The ppm digital system consists of six blocks on six schematic sheets. Blocks 1,
   * Combinational circuits
   * Sequential circuits
   * Programmable components
-  * Digital systems.
+  * Digital systems
