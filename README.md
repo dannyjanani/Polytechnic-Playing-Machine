@@ -38,6 +38,10 @@ The ppm digital system consists of six blocks on six schematic sheets. Blocks 1,
 
 ## Gallery
 
+Setup
+:-------------------------:
+![](https://github.com/dannyjanani/home/blob/master/src/pages/ProjectPages/Media/ppm.JPG)
+
 ## Provided Materials
 
 * 1x [Digilent NEXYS-4 DDR FPGA board](https://www.digikey.com/products/en/development-boards-kits-programmers/evaluation-boards-embedded-complex-logic-fpga-cpld/796?k=digilent&k=410-292&pkeyword=digilent&sv=0&sf=0&FV=-8%7C796&quantity=&ColumnSort=0&page=1&pageSize=25)
